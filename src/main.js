@@ -1,7 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './registerServiceWorker'
-import router from './router'
-import store from './store'
+import { createApp } from 'vue';
+import App from './App.vue';
+import "./assets/css/tailwind.css";
+import "./assets/css/main.css";
+import "./assets/css/all.min.css";
 
-createApp(App).use(store).use(router).mount('#app')
+const app = createApp(App);
+app.mount('#app');
